@@ -1,0 +1,1 @@
+import{et as a}from"./main-B4_Lb9Yd.js";import{fromGeometryToGXGeometry as c,getSpatialReference as m}from"./jsonConverter-CQN82ana.js";function f(t,n={}){const{unit:o}=n;let e=c(t).calculateLength2D();const r=m(t);return e&&o&&r&&(e=a(e,r,o)),e}export{f as execute};

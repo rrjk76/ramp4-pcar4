@@ -1,0 +1,1 @@
+import"./multi-instances-CbzH0X91.js";

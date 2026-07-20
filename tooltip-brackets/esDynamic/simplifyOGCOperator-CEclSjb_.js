@@ -1,0 +1,1 @@
+import{m as i}from"./OperatorSimplifyOGC-Dc_uctn3.js";import{fromSpatialReference as s,getSpatialReference as u,fromGeometry as l}from"./apiConverter-D7hFCiA8.js";const r=new i;function m(e,n,t,o){return r.isSimple(e,n,t,o,null)}function f(){return r.supportsCurves()}function a(e,n){return m(l(e),s(u(e)),n!=null,n??null)}f();export{a as isSimple};
